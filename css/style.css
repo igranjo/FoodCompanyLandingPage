@@ -1,0 +1,138 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+li{
+    display: inline;
+    padding-right: 5px;
+}
+
+.botao{
+    padding: 5px;
+    border-radius: 8px;
+}
+.destaque{
+    background-color: orange;
+    color: white;
+}
+
+.saibamais{
+    background-color: white;
+    color: rgb(29, 27, 27);
+}
+
+.top{
+    background-color: #fdf2e9;
+    margin: 0px;
+    padding: 2px;
+}
+
+.secaocolunas{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.anuncio{
+    font-size: 12px;
+}
+.hero{
+    width: 400px;
+
+}
+
+.alinhador{
+    margin-left: 100px;
+}
+
+.alinhador-d{
+    margin-right: 100px;
+}
+
+.clientes{
+    display: flex;
+    margin: 10px;
+}
+
+.customerswrapper{
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+}
+
+.customers{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: -10px;
+}
+
+.marcas{
+    display: block;
+    text-align: center;
+}
+.cinza{
+    color: gray;
+    font-weight: bold;
+}
+.marca{
+    width: 100px;
+    filter: grayscale(100);
+    margin: 1px 20px;
+}
+
+.comofunciona{
+    margin-bottom: -5px;
+    margin: 1px 100px;
+}
+.laranja{
+    color: orange;
+    font-weight: 800;
+}
+
+.step{
+    display: flex;
+    margin: 30px 100px;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.metade{
+    width: 50%;
+   
+}
+
+header{
+    font-size: 48px;
+    font-weight: 300;
+    color: gray;
+}
+
+.app{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.textofooter{
+    color: gray;
+}
+.listafooter{
+    display: block;
+    margin-left: -20px;
+}
+.negrito{
+    font-weight: bold;
+}
