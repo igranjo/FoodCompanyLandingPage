@@ -38,9 +38,11 @@ li{
     justify-content: space-between;
     align-items: center;
 }
+
 .anuncio{
     font-size: 12px;
 }
+
 .hero{
     width: 400px;
 
@@ -135,4 +137,94 @@ footer{
 }
 .negrito{
     font-weight: bold;
+}
+@media (max-width: 860px){
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+.reverse{
+    flex-wrap: wrap-reverse;
+}
+
+.alinhador{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.alinhador-d{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navbar{
+    display: none;
+}
+
+.text-mobile{
+    text-align: center;
+}
+
+.secaocolunas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.botao{
+    padding: 20px;
+    border-radius: 8px;
+
+}
+.destaque{
+    background-color: orange;
+    color: white;
+}
+
+.saibamais{
+    background-color: white;
+    color: rgb(29, 27, 27);
+}
+
+.hero{
+    width: 90%;
+    justify-self: center;
+}
+
+.customerswrapper{
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+
+.clientes{
+    display: flex;
+    margin: 20px;
+}
+
+.metade{
+    width: 100%;
+   
+}
+
+.comofunciona{
+    margin-bottom: -5px;
+    margin: 1px 20px;
+}
+
+.step{
+    display: flex;
+    margin: 30px 20px;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.footer{
+    display: none
+}
 }
