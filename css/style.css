@@ -138,6 +138,10 @@ footer{
 .negrito{
     font-weight: bold;
 }
+
+.mobile{
+    visibility: hidden;
+}
 @media (max-width: 900px){
 
 .wrapper{
@@ -160,9 +164,9 @@ footer{
     margin-left: 20px;
 }
 
-.navbar{
+/*.navbar{
     display: none;
-}
+}*/
 
 .text-mobile{
     text-align: center;
@@ -227,4 +231,13 @@ footer{
 .footer{
     display: none
 }
+
+.desktop{
+    display: none;
+}
+
+.mobile{
+    visibility: visible;
+}
+
 }
