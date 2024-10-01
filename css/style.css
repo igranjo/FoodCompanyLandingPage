@@ -138,7 +138,7 @@ footer{
 .negrito{
     font-weight: bold;
 }
-@media (max-width: 860px){
+@media (max-width: 900px){
 
 .wrapper{
     display: flex;
